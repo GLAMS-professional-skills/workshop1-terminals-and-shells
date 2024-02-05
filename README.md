@@ -230,10 +230,16 @@ echo %workshoptheme%
 
 # File globbing (bash-like)
 
-Bash will expand `*` to any file/directory and `**` to any directory/nested-subdirectory (i.e. find folders
+Bash will expand `*` to any file/directory and `**` to any directory/nested-subdirectory (i.e. find folders).
+
+Write a `bash` one-liner to list out all the `.tex` files in the current directory, and all subdirectories.
+
+Now write other one to find each of those `.tex` files and make a copy of them in each of the corresponding directories with the added extension `.tex.backup`.
 
 # Bashisms
 
 ## Translate to POSIX compliant
 In `bashism.sh`, there is a shell script that is valid bash, but will not run in sh. Translate it so that it will run in `sh` too correctly.
 ## bash neq sh
+
+# Shebangs
