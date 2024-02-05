@@ -81,6 +81,7 @@ When running an executable inside of the terminal, these things will correspond 
 - Stuff printed out onto the terminal that you didn't write
 - Stuff printed out onto the terminal that you didn't write... but different (typical context referring to events or errors)
 
+
 However, these file descriptors can be redirected into other things such as files or as inputs to another process.
 As far as the process is concerned, it can't tell if it is taking in, or out, text from the keyboard, or a file, etc (*this is a lie, but you can believe it for now*)
 
