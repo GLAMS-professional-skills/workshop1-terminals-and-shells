@@ -110,8 +110,14 @@ dir > directory-contents.txt
 
 Read in from file
 ```bash
+# cat will print out stdin as well as the contents of files given as arguments
+cat < directory-contents.txt
+```
+Pass as CLI args to another command
+```bash
 # touch files (changes time last modified to now)
-touch < directory-contents.txt
+touch $(cat directory-contents.txt)
+# `...` or $(...) do the same: execute ... and paste output as if it was typed out
 ```
 
 
