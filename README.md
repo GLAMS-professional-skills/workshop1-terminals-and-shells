@@ -76,6 +76,7 @@ A typical process (something that is created when you run an executable) will ha
 - STDIN (0)
 - STDOUT (1)
 - STDERR (2)
+
 When running an executable inside of the terminal, these things will correspond to:
 - Stuff you type into the terminal after process starts
 - Stuff printed out onto the terminal that you didn't write
