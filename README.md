@@ -4,11 +4,11 @@
 
 Have a look to see if you have a bash emulator installed somewhere already (quite common with mathematical software).
 
-If not, why not try installing [Cygwin]()?
+If not, why not try installing [Cygwin](https://cygwin.com/)?
 
 ## Install WSL2
 
-Windows has been pushing [WSL2]() for a couple of years and has made it a compelling product.
+Windows has been pushing [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) for a couple of years and has made it a compelling product.
 It allows you to run Linux inside windows,
 which can sometimes solve headaches when trying to use software mainly built for Linux.
 
@@ -18,7 +18,7 @@ which can sometimes solve headaches when trying to use software mainly built for
 ## Install windows terminal
 
 Terminals and shells have traditionally been coupled together on Windows.
-[Windows Terminal]() is a couple of years old, and has many quality of life improvements.
+[Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) is a couple of years old, and has many quality of life improvements.
 Maybe try it out (especially if you installed WSL2).
 
 # Try ZSH
