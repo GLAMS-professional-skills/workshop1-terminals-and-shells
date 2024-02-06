@@ -207,6 +207,9 @@ Try laying out some files where running `python` on a script, or `pdflatex` on a
 
 **Note:** `LATEXINPUTS` can be set in your `latexmkrc` file if you use `latexmk`.
 
+**exercise idea:** place a `.sty` packages in a folder `latex_packages` and a couple `.tex` files using this package in different subfolders.
+Write a shell script which compiles all tex files in the current folder and all subfolders, placing the corresponding PDFs in each corresponding folder.
+
 
 ## Setting environment variables from a file
 
