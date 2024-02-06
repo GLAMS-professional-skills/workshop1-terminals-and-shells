@@ -21,6 +21,10 @@ Terminals and shells have traditionally been coupled together on Windows.
 [Windows Terminal]() is a couple of years old, and has many quality of life improvements.
 Maybe try it out (especially if you installed WSL2).
 
+# Try ZSH
+
+Curious about `zsh` and it's themes? Why note try it out, afterwards you can install [oh-my-zsh](https://ohmyz.sh/) to get themes and plugins.
+
 # CLI arguments
 
 ## Intro
